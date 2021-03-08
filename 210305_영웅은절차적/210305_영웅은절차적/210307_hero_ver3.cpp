@@ -10,7 +10,7 @@ struct Hero
 {
 	int hp = 100;
 	int maxhp = 100;
-	string name =0;
+	string name;
 	int posX = 0;
 	int posY = 0;
 	int money = 0;
