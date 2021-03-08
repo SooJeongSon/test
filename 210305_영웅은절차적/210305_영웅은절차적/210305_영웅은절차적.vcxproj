@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="210305_hero_ver2.cpp" />
     <ClCompile Include="210307_hero_ver3.cpp" />
+    <ClCompile Include="210308_hero_ver4.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
