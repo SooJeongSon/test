@@ -281,8 +281,8 @@ int main(void)
 		case 'D': case 'd':
 			escape[user.posX][user.posY] = '#';
 			user.posY++;
-			if (user.posY > map.height)
-				user.posY = map.height;
+			if (user.posY > map.width)
+				user.posY = map.width;
 			break;
 		default:
 			break;
@@ -449,6 +449,12 @@ int main(void)
 #pragma endregion
 
 	} //∞‘¿” whileπÆ
+
+	for (int i = 0; i < map.height; i++)
+	{
+		delete[] escape[i];
+	}
+	delete[] escape;
 
 	return 0;
 
